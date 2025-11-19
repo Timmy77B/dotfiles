@@ -60,5 +60,11 @@
 [init]
   defaultBranch = master
 [user]
-	email = timboodts1998@gmail.com
+	email = timboodts1998Ã@gmail.com
 	name = Tim Boodts
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
